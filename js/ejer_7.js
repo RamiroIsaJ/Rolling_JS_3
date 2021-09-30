@@ -75,7 +75,7 @@ class Agenda {
     }
 
     listarContactos(){
-        for(let k=0; k<this.size; k++){
+        for(let k=0; k<this.agendaD.length; k++){
             let contacto = this.agendaD[k];
             let claves = Object.keys(contacto);
             for (let i=0; i < claves.length; i++){
